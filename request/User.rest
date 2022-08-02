@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/user
+content-type:application/json
+
+{
+ "username":"leht",
+ "name":"asd",
+ "password":"213123"   
+}
+
+###
+//ruta errorea hay que arreglar la att:lucho
+GET http://localhost:3001/api/user/62c0be59b15d799447907381
